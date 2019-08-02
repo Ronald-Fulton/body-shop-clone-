@@ -1,0 +1,312 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.address-number h4 {
+  text-align: center;
+  /*margin-top: 30px;*/
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid rgb(210, 47, 37);
+  letter-spacing: 3px;
+}
+
+.top-section {
+  max-width: 55%;
+}
+
+.top-section h1 {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-size: 50px;
+}
+
+.top-section p:nth-of-type(1) {
+  text-align: center;
+  font-size: 18px;
+  padding: 0 0 20px 0;
+}
+
+.top-section img {
+  text-align: center;
+  width: 100%;
+}
+
+.top-section p:nth-of-type(2){
+  padding: 25px 0 0 5px;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+.top-section a {
+  background: rgb(210, 47, 37);
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  /*border-radius: 20px;*/
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+  width: 35%;
+  padding: 8px;
+  margin-bottom: 70px;
+}
+
+/*About us//////////////////////////////*/
+
+.about-us {
+  width: 80%;
+  margin-bottom: 130px;
+}
+
+.about-us h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  border-bottom: black solid 1px;
+  padding: 0 0 10px 0;
+  margin-bottom: 30px;
+}
+
+.about-us img {
+  width: 100%;
+}
+
+.about-us h4 {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.about-us p:nth-of-type(1) {
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+/*vertical images/////////////*/
+
+.about-us .first-img {
+  width: 50%;
+  float: left;
+}
+
+.about-us .first-img h2 {
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+.about-us .first-img img {
+  width: 95%;
+}
+
+.about-us .sec-img {
+  width: 50%;
+  float: right;
+}
+
+.about-us .sec-img img {
+  width: 95%;
+}
+
+.about-us .sec-img h2 {
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+/*Services///////////////*/
+
+.services {
+  width: 80%;
+}
+
+.services h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  border-bottom: black solid 1px;
+  padding: 0 0 10px 0;
+  margin-bottom: 30px;
+}
+
+
+/*Routine Service///////////////*/
+
+
+.services .routine-service h2 {
+  font-size: 32px;
+  color: rgb(210, 47, 37);
+}
+
+.services .routine-service .left-col {
+  width: 45%;
+  float: left;
+}
+
+.services .routine-service .left-col h4 {
+  font-size: 23px;
+  padding: 25px 0 25px 0;
+}
+
+.services .routine-service .right-col {
+  width: 45%;
+  float: right;
+}
+
+.services .routine-service .right-col h4 {
+  font-size: 23px;
+  padding: 25px 0 25px 0;
+}
+
+/*Repairs//////////////////////*/
+
+.services .repairs {
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.services .repairs h2 {
+  font-size: 32px;
+  color: rgb(210, 47, 37);
+}
+
+.services .repairs .left-col {
+  width: 45%;
+  float: left;
+}
+
+.services .repairs .left-col h4 {
+  font-size: 23px;
+  padding: 25px 0 25px 0;
+}
+
+.services .repairs .right-col {
+  width: 45%;
+  float: right;
+}
+
+.services .repairs .right-col h4 {
+  font-size: 23px;
+  padding: 25px 0 25px 0;
+}
+
+/*contact///////////////////////*/
+
+.contact {
+  width: 80%;
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+  padding-bottom: 60px;
+}
+
+.contact h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  border-bottom: black solid 1px;
+  padding: 0 0 10px 0;
+  margin-bottom: 50px;
+}
+
+.contact h2 {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  font-size: 30px;
+}
+
+.contact p {
+  text-align: center;
+  padding: 5px 0 5px 0;
+  font-size: 17px;
+}
+
+/*footer////////////////////////*/
+
+footer {
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+
+/*MEDIA QUERIES/////////////////////////////////////*/
+
+@media (max-width: 847px) {
+
+  .top-section {
+    width: 100%;
+    margin-left:0;
+    text-align: center;
+  }
+  .top-section h1 {
+    width: 100%;
+    font-size: 37px;
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  .top-section p {
+    margin-left: 70px;
+    width: 100%;
+  }
+
+  .top-section img {
+    display: block;
+    margin: 0;
+    text-align: none;
+    width: 150%;
+    margin-left: 30px;
+  }
+
+  .top-section a {
+    width: 100%;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .about-us .first-img {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+
+  .about-us .sec-img {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .services .routine-service .left-col {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .services .routine-service .right-col {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .services .repairs .left-col {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .services .repairs .right-col {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+/*z*/
